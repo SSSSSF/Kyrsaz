@@ -1,0 +1,741 @@
+body {
+    padding: 0;
+    margin: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    min-width: 940px;
+    max-width: 100%;
+    height: 100%;
+    max-height: auto;
+
+    font-family: georgia italic impact;
+    background: silver;
+    box-sizing: border-box;
+}
+.page-header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: grid;
+    grid-template-columns: 100px 2fr 1fr;
+    height: 140px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    background: Turquoise;
+}
+.header-logo {
+    width: 110px;
+    height: 90px;
+    margin-left: 15px;
+    margin-top: 10px;
+    padding: 0;
+    -moz-border-radius:60px;
+    -webkit-border-radius:60px;
+    border-radius:60px;
+    background:white;
+
+}
+/*Класс изображения логотипа Векторный вариант используется в подвале так как сверху он не подошёл*/
+.header-logo img {
+    width: 150px;
+    height: 120px;
+    padding: -10;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+navigation li.button {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.button.a {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.button {
+    text-align: center;
+    align-self: center;
+    padding: 0;
+    margin: 10px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+
+ul {
+    list-style-type: disc;
+}
+.help {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+/* логотип и его параметры  для подвала*/
+.footer-logo {
+    width: 100px;
+    max-height: 90px;
+    margin-left: 30px;
+    margin-top: 15px;
+    padding: 0;
+}
+.footer-logo img {
+    width: 100px;
+    height: 90px;
+    padding: 0;
+}
+
+.page-footer {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+    height: 140px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    background:  Turquoise;
+}
+
+.navigation li.button {
+    list-style-type: none;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.button.a {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+.button {
+    text-align: center;
+    align-self: center;
+    padding: 0;
+    margin: 10px;
+}
+/* Фильтр который нам заботливо отдали */
+input[type="radio"] {
+    display: none;
+}
+user agent stylesheet
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+
+
+label {
+    width: 23%;
+    float: left;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%);
+    color: #222222;
+    padding: 0.5%;
+    margin: 0.5%;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background: teal;
+ border-radius: 10%;
+}
+
+.blue {
+    background: #6666ff;
+}
+.tile {
+    width: 23%;
+    height: 150px;
+    float: left;
+    transition: all 1s;
+    margin: 0.5%;
+    padding: 0.5%;
+}
+
+.red {
+    background: #ff4466;
+}
+
+.green {
+    background: #66dd99;
+}
+
+.form-complex {
+    width: 56%;
+    border-left: 2px solid #425;
+    border-right: 2px solid #425;
+    border-radius: 5%;
+    box-shadow: 0 0 10px rgb(0 0 0 / 50%);
+    margin: 25px 0 15px 0;
+    padding: 10px;
+    font-family: georgia italic impact;
+}
+
+.form-company {
+    width: auto;
+    justify-content: flex-start;
+}
+
+.form-subscription {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-subscription label {
+    margin: 10px;
+    margin-bottom: 3px;
+}
+
+.form-subscription input {
+    margin: 10px;
+}
+
+
+
+
+
+
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color:teal;
+    color: black;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: black ;
+    border-image: initial;
+    border-radius: 10%;
+}
+
+input[type="radio" i] {
+    background-color: initial;
+    cursor: default;
+    appearance: auto;
+    box-sizing: border-box;
+    margin: 3px 3px 0px 5px;
+    padding: initial;
+    border: initial;
+}
+
+label {
+    cursor: default;
+}
+
+.container {
+  width:90%;
+  margin:0 auto;
+}
+input[type="radio"] {
+    display:none;
+}
+label {
+  width:23%;
+  float:left;
+  text-align:center;
+  background:#ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  color:#222222;
+  padding:0.5%;
+  margin:0.5%;
+  margin-bottom:30px;
+  cursor:pointer;
+}
+input[type="radio"][id="blue"]:checked + label {
+  background:black;
+}
+input[type="radio"][id="blue"]:checked ~ .red, input[type="radio"][id="blue"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="red"]:checked + label {
+  background:silver;
+}
+input[type="radio"][id="red"]:checked ~ .blue, input[type="radio"][id="red"]:checked ~ .green {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+input[type="radio"][id="green"]:checked + label {
+  background:teal;
+}
+input[type="radio"][id="green"]:checked ~ .blue, input[type="radio"][id="green"]:checked ~ .red {
+  width:0;
+  height:0;
+  padding:0;
+  margin:0;
+  opacity:0;
+}
+
+.tile {
+  width:23%;
+  height:150px;
+  float:left;
+  transition:all 1s;
+  margin:0.5%;
+  padding:0.5%;
+}
+.green {
+  background: transparent;
+}
+.blue {
+  background:transparent;
+}
+.red {
+  background:transparent;
+}
+
+.order-form{
+    width: 100px;
+    padding: 5px;
+    }
+
+.btn-2{
+    padding: 5px;
+    margin: 10px;
+}
+
+.header-logo{
+    padding: 10px;
+}
+
+.header{
+    background-color: #000000;
+    display: flex;
+    justify-content: start;
+}
+
+.header-info{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    color: white;
+}
+
+.header-phone{
+    position: absolute;
+    top: 2%;
+    right: 3%;
+    color: white;
+}
+
+.footer{
+    margin-top: 10px;
+    text-align: right;
+    background-color: #000000;
+}
+
+.developer{
+    margin: 5px;
+    color: white;
+}
+
+.order{
+    text-align:center;
+    margin-top: 5px;}
+
+.header-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.assortiment{
+    text-align:center;
+}
+
+.filter{
+background-color: #D2691E;
+}
+
+
+.SSS {
+background-color: Turquoise;
+}
+/*Фильтр^*/
+/* Собственно сам слайдер */
+
+.slider{
+    max-width: 80%;
+    position: relative;
+
+    height: 300px;
+    margin-bottom: 130px;
+    margin: auto;
+    background-color: grey;
+}
+/* Картинка мастабируется по отношению к родительскому элементу */
+.slider .item img {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+}
+
+/* Кнопки вперед и назад */
+.slider .prev, .slider .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+
+.slider .next {
+    right: 0;
+    border-radius: 5px ;
+
+}
+
+
+/* При наведении на кнопки добавляем фон кнопок */
+
+.slider .prev:hover,
+.slider .next:hover {
+    background-color: Turquoise ;
+}
+
+
+/* Заголовок слайда */
+.slideText {
+    position: absolute;
+    color: Turquoise;
+    font-size: 35px;
+    /* Выравнивание текста по горизонтали и по вертикали*/
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    /* Тень*/
+    text-shadow: 1px 1px 1px #000, 0 0 1em #000;
+    .slider .slideText;
+    background-color: black;
+}
+
+
+/* Кружочки */
+
+.slider-dots {
+  text-align: center;
+
+}
+.slider-dots_item{
+    cursor: pointer;
+    height: 12px;
+    width: 12px;
+    margin: 0 2px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: Turquoise;
+}
+
+
+/* Анимация слайдов */
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+.tecst {
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    border-radius: 5%;
+    border-radius: 5%;
+    background-color: silver;
+}
+
+/* Блок навигации */
+
+/* несколько стилей для всех элементов*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color:grey;
+}
+/* Теперь темная панель навигации растягивается на всю ширину окна просмотра*/
+header {
+    height: 90px;
+    background-color: black;
+    padding: 10px 0;
+}
+/*используем display:flex, чтобы все дочерние элементы занимали свободное пространство, доступное горизонтально*/
+.menu-wrap {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+.logo-img {
+    height: 40px;
+}
+.menu-icon {
+    font-size: 2.4em;
+    color: black;
+    line-height: 50px;
+}
+
+/*добавление стиля списка и ссылок*/
+nav {
+    position: absolute;
+    background-color: black;
+    top:115px;
+    left:0;
+    width: 100%;
+
+
+}
+nav ul {
+    list-style-type: none;
+    max-height: 0px;
+    overflow: hidden;
+    transition: all 0.5s;
+}
+nav ul li {
+    padding: 0 15px;
+
+}
+nav ul li a {
+    display: inline-block;
+    padding: 120px;
+    color: grey;
+    text-decoration: none;
+    letter-spacing: 0.05em;
+}
+nav ul li a:hover, nav ul li a:focus {
+    color: Turquoise;
+}
+
+/*Скрытие чекбокса*/
+#checkbox {
+    display: none;
+
+}
+
+#checkbox:checked ~ nav ul {
+    max-height: 300px;
+    padding: 15px 0;
+    transition: all 0.5s;
+}
+
+
+/* Блок навигации^ */
+
+h1{
+    font-size: 2.2em;
+    text-align: center;
+    padding: 60px 40px 30px;
+    color: #3D4852;
+    line-height: 1.2;
+}
+p{
+    line-height: 1.6;
+    font-size: 1.2em;
+    padding: 0 40px;
+    text-align: center;
+    color: black;
+}
+
+/* собственно поля ввода логина пароля и тд*/
+
+ div.container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* дизайн формы */
+
+form {
+ text-align: center;
+  border: 1px solid #4A4A4A;
+  padding: 35px;
+}
+
+label {
+  height: 50px;
+  display: block;
+  letter-spacing: 4px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+/* анимация всплытия текста */
+
+label .label-text {
+  color: black;
+  cursor: text;
+  font-size: 15px;
+  line-height: 20px;
+  text-transform: uppercase;
+  -moz-transform: translateY(-34px);
+  -ms-transform: translateY(-34px);
+  -webkit-transform: translateY(-34px);
+  transform: translateY(-34px);
+  transition: all 0.3s;
+}
+
+
+/* удаление стиля поля ввода */
+label input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid #1ecbdd;
+    color: #fbfbfb;
+    font-size: 20px;
+    letter-spacing: 10px;
+    outline: 0;
+    padding: 4px 50px;
+    text-align: center;
+    transition: all 0.3s;
+    width: 100px;
+}
+
+/* как только вы нажмете на ввод, поле ввода ширины анимируется */
+
+label input:focus {
+  max-width: 100%;
+  width: 400px;
+}
+
+/* текст всплывает и становится белым */
+
+label input:focus + .label-text {
+  color: Turquoise;
+  font-size: 13px;
+  margin-top: 10px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+/* текст всплывает во время проверки формы */
+
+label input:valid + .label-text {
+  font-size: 13px;
+  -moz-transform: translateY(-74px);
+  -ms-transform: translateY(-74px);
+  -webkit-transform: translateY(-74px);
+  transform: translateY(-74px);
+}
+
+/* стиль кнопок */
+
+button {
+  background: transparent;
+  color: #F0F0F0;
+  border: 2px solid #F0F0F0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  padding: 20px 75px;
+  text-transform: uppercase;
+  cursor: pointer;
+  display: inline-block;
+  margin: 15px 30px;
+  -webkit-transition: all 0.4s;
+	-moz-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+button:hover, button:focus {
+  background-color: black;
+  color: #333333;
+}
+.sad{
+background: transparent;
+  border: 1px solid #F0F0F0;
+  letter-spacing: 2px;
+  padding: 20px 75px;
+   margin: 15px 30px;
+
+}
+
+.topbutton {
+width:100px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
+
+.sadf {
+    background: transparent;
+    border: 9px solid #F0F0F0;
+    letter-spacing: 3px;
+    padding: 1px 10px;
+    margin: 50px 50px;
+    background: white;
+}

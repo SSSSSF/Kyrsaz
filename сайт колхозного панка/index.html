@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="outlines.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" rel="stylesheet">
+<!-- Стандартная форма полей логина пароля с нестандартным чекблоком -->
+	  <header class="menu">
+
+        <div class="menu-wrap">
+
+			 <img src="img/logo.jpg" class="logo-img" alt="Logo">
+            <input type="checkbox" id="checkbox">
+            <nav>
+                <ul>
+                    <li><a href="index.html" class="sad">Заказ</a></li>
+                    <li><a href="Товары.html" class="sad">Товары</a></li>
+                    <li><a href="ИНФА.html" class="sad">О нас</a></li>
+                </ul>
+            </nav>
+            <label for="checkbox">
+                <i class="fa fa-bars menu-icon"></i>
+            </label>
+
+        </div>
+
+		  </header>
+
+  </head>
+
+ <body>
+ <!--Место для ввода логина и пароля -->
+ <div class="container">
+	 <section>
+		 <form>
+			 <label>
+				 <input name="name" id="name" type="text" required />
+				 <div class="label-text">ФИО</div>
+			 </label>
+			 <label>
+				 <input type="email" name="email" id="email" required />
+				 <div class="label-text">Email</div>
+			 </label>
+			 <label>
+				 <input type="tel" name="phone" id="phone" required />
+				 <div class="label-text">SVV cod</div>
+			 </label>
+			 <button type="submit" value="Submit">Готово!</button>
+		 </form>
+	 </section>
+ </div>
+
+<!-- Подвал с логотипом  и ссылкам на нас  -->
+	<footer class="page-footer">
+        <div class="footer-logo">
+			<img src="img/icon.svg" id="Логотип">
+		</div>
+		<div class="help">
+			<p id="connection">Связь с нами:</p>
+		<p>Наш номер: <a class="phone1" href="tel:+x-xxx-xxx-xx-xx" title="+616">+616</a></p>
+			<p>Наша почта: <a href="#" class="phone1">vgek.ru</a></p>
+		</div>
+	</footer>
+<a href="#" title="Вернуться к началу" class="topbutton sad">^Наверх</a>
+ </body>
+</html>
